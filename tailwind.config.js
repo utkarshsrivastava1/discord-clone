@@ -1,8 +1,48 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+    mode: 'jit',
+    purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
+    theme: {
+        extend: {
+            fontFamily: {
+                main: [
+                    'Whitney',
+                    'Helvetica Neue',
+                    'Helvetica',
+                    'Arial',
+                    'sans-serif',
+                ],
+                sec: [
+                    'sec',
+                    'Whitney',
+                    'Helvetica Neue',
+                    ' Helvetica',
+                    'Arial',
+                    'sans-serif',
+                ],
+            },
+            colors: {
+                'primary-blue': '#5865f2',
+                'dark-blue': '#404eed',
+                'light-grey': '#f6f6f6',
+                'light-red': '#ed4245',
+                'dark-1': '#23272a',
+                'dark-2': '#36393f',
+                'dark-3': '#202225',
+                'dark-4': '#292b2f',
+                'light-grey-2': '#2f3136',
+                'light-grey-1': '#4f545c',
+                'light-green': '#3ba55d',
+                'orange-1': '#f26522',
+                'dark-blue': '#0000ee',
+                'sky-blue': '#00b0f4',
+                'dark-grey': '#8e9297',
+                'dark-grey-1': '#b9bbbe',
+                'dark-grey-2': '#dcddde',
+                'dark-grey-3': '#72767d',
+                'sky-light-1': '#00aff4',
+                'light-red-2': '#ed4245',
+            },
+        },
+    },
+    plugins: [],
+}
