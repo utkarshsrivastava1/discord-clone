@@ -1,0 +1,14 @@
+.wrapper {
+    /* background: url('/center_bg_landing_header.svg') no-repeat, #404eed;
+    background-size: cover; */
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu li {
+    @apply text-white font-main font-semibold first:pl-0 p-2 ml-5 cursor-pointer;
+}
+.menu li a {
+    @apply hover:border-b-[1px];
+}

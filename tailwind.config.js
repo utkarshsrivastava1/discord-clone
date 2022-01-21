@@ -12,8 +12,7 @@ module.exports = {
                     'sans-serif',
                 ],
                 sec: [
-                    'sec',
-                    'Whitney',
+                    'Dongle',
                     'Helvetica Neue',
                     ' Helvetica',
                     'Arial',
@@ -22,7 +21,7 @@ module.exports = {
             },
             colors: {
                 'primary-blue': '#5865f2',
-                'dark-blue': '#404eed',
+                'sec-blue': '#404eed',
                 'light-grey': '#f6f6f6',
                 'light-red': '#ed4245',
                 'dark-1': '#23272a',

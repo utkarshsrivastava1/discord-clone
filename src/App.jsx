@@ -8,8 +8,6 @@ import Register from './Register'
 function App() {
     return (
         <div className="app">
-            <h1 className="font-main">Hello world</h1>
-            <h2 className="font-sec text-3xl">jakar</h2>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="login" element={<Login />} />
